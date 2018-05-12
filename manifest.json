@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Full Light",
+  "short_name": "Lightly",
+  "version": "1.0.0",
+  "description": "Write down what you're grateful for in newtab",
+
+
+   "chrome_url_overrides" : {
+     "newtab": "index.html"
+   },
+
+   //"browser_action": {
+    //"default_icon": "icon128.png",
+    //"default_popup": "index.html"
+  //},
+
+  //"icons": {
+    //"128": "icon128.png"
+  //},
+
+  "permissions": [
+    "activeTab"
+    //"storage"
+  ]
+}
